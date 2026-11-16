@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "LEGAL_SYSTEM_MESSAGE_PATH": "\\AI-Playground\\AI-Playground\\Data\\LegalSystemMessage.txt",
+        "AZURE_OPENAI_ENDPOINT": "https://fhl-instance-001.openai.azure.com/",
+        "AZURE_OPENAI_KEY": "",
+        "AZURE_OPENAI_DEPLOYMENT": "gpt-5-mini",
+        "AZURE_TEXT_EMBEDDING_MODEL": "text-embedding-3-small",
+        "AZURE_SEARCH_SERVICE_ENDPOINT": "https://fhl-ai-search-service-001.search.windows.net",
+        "AZURE_SEARCH_SERVICE_KEY": ""
+      }
+    }
+    // ... other profiles
+  }
+}
